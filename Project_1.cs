@@ -46,11 +46,12 @@ public class Program
 					length = length - 1;
 				}
 			}
+			stringList1.Add("\n");
 		}
 
 		foreach (String resultString in stringList1)
 		{
-			Console.WriteLine("\n " + resultString);
+			Console.Write(" " + resultString);
 			count++;
 		}
 
