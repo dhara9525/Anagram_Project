@@ -45,7 +45,7 @@ public class Program
 			}
 			stringList1.Add("\n");
 		}
-        Console.WriteLine("Result :");
+		Console.WriteLine("Result :");
 		foreach (String resultString in stringList1)
 		{
 			Console.Write(" " + resultString);
