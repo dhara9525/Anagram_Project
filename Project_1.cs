@@ -41,6 +41,7 @@ public class Program
 					stringList1.Add(stringList[j]);
 					stringList.Remove(stringList[j]);
 					length = length - 1;
+					count++;
 				}
 			}
 			stringList1.Add("\n");
@@ -49,7 +50,6 @@ public class Program
 		foreach (String resultString in stringList1)
 		{
 			Console.Write(" " + resultString);
-			count++;
 		}
 		if (count == 0)
 		{
